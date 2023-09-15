@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'localhost', 'ghanabasicschools.pythonanywhere.com']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
