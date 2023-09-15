@@ -27,18 +27,18 @@ SECRET_KEY = 'django-insecure-bn+%&-6$t7%*g#e(er+pelqj8z87$3r2+st#1w+)zn73v#d_lv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'localhost', 'ghanabasicschools.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'localhost', 'ghanabasicschools.pythonanywhere.com', 'https://ghanabasicschool.com']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://ghanabasicschool.com"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://ghanabasicschool.com"
 ]
 
 CORS_ALLOW_METHODS = (
